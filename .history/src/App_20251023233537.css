@@ -276,7 +276,7 @@ body {
   border-color: var(--add);
   color: #fff;
 }
-
+/* Filters row */
 .filters {
   display: grid;
   grid-template-columns: 1fr 200px 200px auto;
@@ -301,11 +301,13 @@ body {
   background: #f7f7f7;
 }
 
+/* Selected book highlight */
 .card.is-selected {
   border: 2px solid #2563eb;
   box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
 }
 
+/* Modal form styles already in your file; ensure these exist */
 .book-form.wide {
   grid-template-columns: 180px 1fr;
   row-gap: 16px;
